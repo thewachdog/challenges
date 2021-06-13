@@ -1,0 +1,114 @@
+@font-face {
+    font-family: myfont;
+    src: url(../../../media/HACKED.ttf) format('truetype');
+}
+
+.button:hover{
+    background-color: purple;
+}
+.button:active{
+    background-color: black;
+}
+
+.button{
+    font-size: 25px;
+    display: inline-block;
+    padding: 15px 40px;
+    background-color: orangered;
+    color: white;
+    text-decoration: none;
+    border-radius: 15px;
+}
+
+body{
+    background: url('../../../media/86\ Hacker\ HD\ Wallpapers\ Backgrounds.jpg') no-repeat center fixed;
+    background-size: cover;
+}
+
+h1{
+    color: teal;
+    font-family: monospace;
+    margin: 0 auto;
+    background-color: yellow;
+    /*font-size: 30px;
+    opacity: 0.85;
+    text-align: center;
+    border: 20px groove rgb(0, 102, 255);*/
+}
+
+h3 {
+    font-family: myfont;
+    font-size: 100px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin: 0 auto;
+}
+
+h5{
+    font-family: myfont;
+    text-align: center;
+    padding: 0px;
+    font-size: 20px;
+    color: rgb(255, 0, 0);
+    margin: 0 auto;
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+    color: aquamarine;
+}
+
+a:hover{
+    background-color: white;
+    color: black;
+}
+
+a:active{
+    background-color: red;
+}
+
+li{
+    float: left;
+    padding: 15px 40px;
+}
+
+li:hover{
+    background-color: blueviolet;
+}
+
+li:active{
+    background-color: magenta;
+}
+
+.right{
+    float: right;
+}
+
+ul{
+    list-style-type: none;
+    font-family: myfont;
+    font-size: 20px;
+    margin: 0;
+    padding: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: rgb(0, 110, 255);
+    overflow: hidden;
+    opacity: 0.85;
+    border: 15px groove rgb(81, 255, 0);
+}
+
+.active{
+    background-color: purple;
+}
+
+center{
+    font-family: myfont;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    font-weight: bolder;
+    background-color: lawngreen;
+    border-radius: 20px;
+    opacity: 0.8;
+}

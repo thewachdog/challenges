@@ -1,0 +1,27 @@
+body {
+    background: url('../media/cake1.jpg') no-repeat center fixed;
+    background-size: cover;
+}
+
+div{
+    background-color: brown;
+    width: 59%;
+    margin: 150px auto;
+    text-align: center;
+    color: white;
+    border-radius: 20px;
+    opacity: 0.85;
+    font-family: 'Pattaya', sans-serif;
+}
+
+button {
+    background-color: rgb(255, 182, 86);
+    padding: 10px;
+    font-size: 25px;
+    font-family: 'Pattaya', sans-serif;
+}
+
+i{
+    font-size: 50px;
+    margin-top: 10px;
+}

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Registration page</title>
+   <style>
+       h1 {
+           color: #000000;
+       }
+   </style>
+   <link rel="stylesheet" href="css/registercss.css">
+   <script src="https://kit.fontawesome.com/821706cb87.js" crossorigin="anonymous"></script>
+</head>   
+<body>
+    <h3>hacked.exe</h3>
+    <h5>a hackathon organised by @thewachdog</h5>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#">About us</a></li>
+        <li class="right"><a href="login.html">Login</a></li>
+        <li class="right active"><a href="#">Register</a></li>
+    </ul>
+    <br>
+    <div>
+      <h1 style="
+      font-style: italic;
+     ">
+      <i class="fas fa-angle-double-right"></i>"Everything is connected"<br>
+      <i class="fas fa-angle-double-right"></i>"Connection is power"<br>
+      <i class="fas fa-angle-double-right"></i>"Hacking is a weapon"</h1>
+   </div>
+   <center style="
+   font-family: myfont;
+   color: rgb(255, 255, 255);
+   font-weight: bolder;">
+   <h2>Lets get started. Please enter your info:</h2>
+       <table style="font-size: 25px;">
+           <tr>
+               <td>Name:</td>
+               <td><input type="text" name='name'></td>
+           </tr>
+           <tr>
+               <td>Date of birth:</td>
+               <td><input type="date" name='dob'></td>
+           </tr>
+           <tr>
+               <td>Gender:</td>
+               <td>
+                   <input type="radio" id='male' name='gender'>
+                   <label for='male'>Male</label>
+                   <input type="radio" id='female' name='gender'>
+                   <label for='female'>Female</label>
+               </td>
+           </tr>
+           <tr>
+               <td>Country:</td>
+               <td>
+                   <select name='country'>
+                       <option value='0'>select...</option>
+                       <option value='1'>India</option>
+                       <option value='2'>Other country</option>
+                   </select>
+                </td>
+           </tr>
+           <tr>
+               <td>Email:</td>
+               <td><input type="email" name='email'></td>               
+           </tr>
+           <tr>
+               <td>password:</td>
+               <td><input type="password" name='password'></td>
+           </tr>
+           <tr>
+               <td>comfirm password:</td>
+               <td><input type='password'></td>
+           </tr>
+           <tr>
+               <td>team color:</td>
+               <td><input type="color"></td>
+           </tr>
+           <tr>
+               <td>Team pic:</td>
+               <td><input style="font-family: myfont;
+                background-color: black;
+                color: white;
+                padding: 5px;
+                padding-left: 15px;
+                padding-right: 15px;
+                font-size: 15px;" type="file" id='file1' name='teampic'></td>
+           </tr>
+           <tr>
+               <td>
+                   <input type="checkbox" id='termcond'>
+                   <label for='termcond'>I agree to this terms and conditions.</label>
+               </td>    
+           </tr>
+           <tr>
+               <td>
+                   <button type='reset'>
+                      <a href="register.html">reset</a>
+                   </button>
+               </td>
+               <td>
+                   <button type="submit">
+                       <a href="#">
+                        Register
+                       </a>
+                   </button>
+               </td>
+           </tr>
+       </table>
+   </center>
+</body>
+</html>

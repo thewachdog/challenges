@@ -1,0 +1,116 @@
+@font-face {
+    font-family: myfont;
+    src: url(../../../media/HACKED.ttf) format('truetype');
+}
+
+body{
+    background: url(../../../media/674609.jpg) no-repeat center fixed;
+    background-size: cover;
+}
+
+div {
+    background-color: rgb(0, 255, 255);
+    border-radius: 20px;
+    opacity: 0.7;
+}
+
+i {
+    color: rgb(55, 0, 255);
+}
+
+h1 {
+    font-family: monospace;   
+    border: 15px outset rgb(0, 255, 55);
+    text-align: center;
+    padding: 5px;
+    margin: 0 auto;
+    width: auto;
+}
+
+h2 {
+    font-size: 50px;
+    padding: 0px;
+    margin: 0 auto;
+    margin-top: 10px;
+    font-style: italic;
+    color: rgb(255, 0, 255);
+ }
+ 
+h3 {
+    font-family: myfont;
+    font-size: 100px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin: 0 auto;
+}
+
+h5{
+    font-family: myfont;
+    text-align: center;
+    padding: 0px;
+    font-size: 20px;
+    color: rgb(255, 0, 0);
+    margin: 0 auto;
+}
+
+
+button{
+   font-family: myfont;
+   background-color: black;
+   color: white;
+   padding: 5px;
+   padding-left: 15px;
+   padding-right: 15px;
+   font-size: 25px;
+}
+
+a{
+    display: inline-block;
+    color: white;
+    text-decoration-color: none;
+}
+
+a:hover{
+    background-color: white;
+    color: black;
+}
+
+a:active{
+    background-color: red;
+}
+
+li{
+    float: left;
+    padding: 15px 40px;
+}
+
+li:hover{
+    background-color: blueviolet;
+}
+
+li:active{
+    background-color: magenta;
+}
+
+.right{
+    float: right;
+   /* background-color: red;*/
+}
+
+ul{
+    list-style-type: none;
+    font-family: myfont;
+    font-size: 20px;
+    margin: 0;
+    padding: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: rgb(0, 26, 255);
+    overflow: hidden;
+    opacity: 0.85;
+    border: 5px groove rgb(81, 255, 0);
+}
+
+.active{
+    background-color: purple;
+}

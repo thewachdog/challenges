@@ -1,0 +1,25 @@
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
+
+div {
+   position: relative;
+   z-index: 2;
+   text-align: center;
+   margin-top: 20%;
+   background-color: rgba(197, 98, 98, 0.671); 
+   border-radius: 25px;
+   padding: 50px;
+}
+
+a{
+  display: inline;
+  border: 3px solid rgb(255, 0, 0);
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  background-color: black;
+}
