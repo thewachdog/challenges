@@ -1,3 +1,38 @@
+@font-face {
+    font-family: myfont;
+    src: url('media/HACKED.ttf');
+}
+
 body{
-    background-color: blue;
+    background: url('media/pexels-negative.jpg') no-repeat center fixed;
+    background-size: cover;
+    font-family: myfont;
+}
+
+center{
+    font-family: monospace;
+    font-size: 50px;
+    font-weight: bolder;
+    font-style: italic;
+    background-color: rgb(153, 255, 0);
+    border-radius: 25px;
+    opacity: 0.9;
+}
+
+h1{
+    font-size: 100px;
+    font-family: myfont;
+    font-weight: bold;
+    background-color: white;
+    text-align: center;
+    margin: 0 auto;
+}
+
+p{
+    margin: auto;
+    text-align: center;
+    background-color: turquoise;
+    opacity: 0.9;
+    font-size: 50px;
+    border: 15px inset rgb(111, 0, 255);
 }
