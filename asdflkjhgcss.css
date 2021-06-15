@@ -1,0 +1,45 @@
+@font-face {
+    font-family: myfont;
+    src: url('media/HACKED.ttf');
+}
+
+body{
+    background: url('media/674609.jpg') no-repeat center fixed;
+    background-size: cover;
+}
+
+
+div{
+    font-family: myfont;
+    font-size: 40px;
+    text-align: center;
+    color: rgb(47, 95, 255);
+    background-color: rgb(238, 255, 0);
+    
+}
+
+h1{
+    font-size: 100px;
+    font-family: myfont;
+    font-weight: bold;
+    background-color: white;
+    text-align: center;
+    margin: 0 auto;
+}
+
+h3{
+    color: rgb(255, 0, 255);
+    font-family: monospace;
+    font-size: 35px;
+    background-color: aqua;
+    opacity: 0.85;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+
+p{
+    text-align: center;
+    background-color: white;
+    font-family: myfont;
+    margin: 0 auto;
+}
