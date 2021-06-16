@@ -88,13 +88,3 @@ function ans5(btn) {
 }
 
 document.getElementById("navigate").disabled = true;
-// alert("Button has been disabled.");
-
-// function clickHandler() {
-//   console.log("answer: ", ans5());
-//   if (ans5() === 5) {
-//     return true;
-//   } else {
-//     return false;
-//   }
-// }
