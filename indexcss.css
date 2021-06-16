@@ -51,3 +51,32 @@ a{
     color: rgb(200, 255, 0);
     text-decoration-color: none;
 }
+
+a:hover{
+    background-color: white;
+    color: black;
+}
+
+a:active{
+    background-color: red;
+}
+
+button{
+    font-family: myfont;
+    background-color: rgb(111, 0, 255);
+    color: white;
+    padding: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 25px;
+    border-radius: 15px;
+ }
+
+ button:hover{
+    background-color: white;
+    color: black;
+}
+
+button:active{
+    background-color: red;
+}
