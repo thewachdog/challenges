@@ -92,7 +92,7 @@ function ans5(btn){
 }
 
 function navigated(){
-  window.location.href = "https://thewachdog.github.io/asdflkjhg.html";
+  window.location.href = "https://thewachdog.github.io/mnzxlkaspoqw.html";
 }
 document.getElementById('navigate').disabled = true;
 alert("Button has been disabled.");
