@@ -11,7 +11,7 @@ body{
 
 div{
     font-family: myfont;
-    font-size: 40px;
+    font-size: 30px;
     text-align: center;
     color: rgb(47, 95, 255);
     background-color: rgb(238, 255, 0);
@@ -20,7 +20,7 @@ div{
 }
 
 h1{
-    font-size: 100px;
+    font-size: 80px;
     font-family: myfont;
     font-weight: bold;
     background-color: white;
@@ -31,7 +31,7 @@ h1{
 h3{
     color: rgb(255, 0, 255);
     font-family: monospace;
-    font-size: 35px;
+    font-size: 28px;
     background-color: aqua;
     opacity: 0.85;
     font-weight: bolder;
@@ -50,4 +50,13 @@ a{
     display: inline-block;
     color: rgb(200, 255, 0);
     text-decoration-color: none;
+}
+
+h4{
+    border: 10px solid rgb(255, 0, 140);
+    background-color: rgb(0, 255, 42);
+    font-style: italic;
+    font-family: myfont;
+    font-size: 28px;
+    text-align: center;
 }
